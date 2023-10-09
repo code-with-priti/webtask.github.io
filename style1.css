@@ -1,0 +1,99 @@
+
+@media (max-height: 800px){
+header {
+    padding-top: 50px;
+}
+}
+.bg{
+    background-image: linear-gradient(rgba(14, 1, 1, 0.8),rgba(0,0,0,0.8)),url(images/images4.jpg);
+    width:100%;
+    height: 50%;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+}
+
+header{
+    
+    font-size: large;
+    font-family:fantasy;
+    text-align: center;
+    
+
+}
+
+p{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+main{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50%;
+}
+.box{
+    display: block;
+    float: left;
+    width: 300px;
+    height:300px;
+    padding: 15px ;
+    padding-left: 0px;
+    
+}
+
+.colm{
+    padding: 10px;
+    transition: transform 0.5;
+}
+.colm img{
+    width: 300px;
+    height: 200px;
+    border-radius: 3px;
+    border: 3px solid #cccccc;
+    box-shadow: 0px 0px 2px 2px;
+    
+
+
+}
+.colm:hover{
+    transform: translateY(-6px);
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.row h4{
+    font-weight: normal;
+}
+.row p{
+    font-size: 11px;
+}
+.title{
+    color: rgb(186, 193, 199);
+    
+}
+
+
+.city{
+     
+    color: black;
+    padding:0px;
+    margin-left: 10px;
+    position: relative; 
+    padding-bottom: 70px;
+    }
+.city a{
+    text-decoration: none;
+    float: right;
+    color: rgb(253, 251, 251);
+    font-size: 12PX;
+    padding: 10px;
+    text-align: end;
+    display: block;
+    
+}
