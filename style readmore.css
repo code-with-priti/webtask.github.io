@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: normal;
+}
+.container{
+    max-width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    
+}
+
+p{
+padding: 10px;
+font-size: 20px;
+
+
+
+
+
+} 
+.read-more-state{
+display: none;
+
+font-style: italic;
+}
+.read-more-target {
+    max-height: 0;
+    opacity: 0;
+    font-size: 2px;
+    transition: 0.45s ease;
+}
+.read-more-state:checked~.read-more-wrap .read-more-target{
+opacity: 1;
+font-size:medium;
+}
+.read-more-state~.read-more-trigger:before{
+ content:'READ MORE';
+}
+.read-more-state:checked~.read-more-trigger:before{
+content: 'READ LESS';
+}
+
+
